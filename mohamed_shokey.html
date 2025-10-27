@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أكاديمية نِكِست
+ - Next Football Club</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background-color: #ffcc00;
+      color: #000;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 60px;
+    }
+    header h1 {
+      font-size: 1.5rem;
+      margin: 0;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=60') center/cover no-repeat;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      color: #ffcc00;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .cta-btn {
+      background-color: #ffcc00;
+      color: #000;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .feature {
+      background-color: #111;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(255, 204, 0, 0.4);
+    }
+    .feature h3 {
+      color: #ffcc00;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 10px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .testimonials {
+      background-color: #111111;
+      padding: 40px 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .testimonial {
+      margin-bottom: 20px;
+      font-style: italic;
+    }
+    .testimonial span {
+      color: #ffcc00;
+      display: block;
+      margin-top: 5px;
+    }
+    iframe {
+      border: none;
+      width: 100%;
+      height: 300px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .contact {
+      background-color: #111;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    footer {
+      background-color: #ffcc00;
+      color: #000;
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="file:///C:/Users/mahmo/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/1000169123.png" alt="شعار أكاديمية نكست">
+    <h1>أكاديمية نِكِست
+<br><span style="font-size:0.9rem">Next Football Club</span></h1>
+  </header>
+
+  <div class="hero">
+    <h2>ابدأ مشوارك الكروي مع نِكِست
+ ⚽ 🏆</h2>
+    <p>تدريب احترافي – مدربين معتمدين – بطولات شهرية</p>
+    <a class="cta-btn" href="https://wa.me/201208464748" target="_blank">سجّل دلوقتي على واتساب</a>
+  </div>
+
+  <section>
+    <h2>⚡ مميزات الأكاديمية ⚡</h2>
+    <div class="features">
+      <div class="feature"><h3>🏅 مدربين معتمدين</h3><p>تدريب احترافي على أعلى مستوى</p></div>
+      <div class="feature"><h3>⚽ تطوير المهارات</h3><p>تحسين اللمسة والتمرير والتصويب</p></div>
+      <div class="feature"><h3>🔥 بطولات دورية</h3><p>منافسات مستمرة لاكتساب الخبرة والثقة</p></div>
+      <div class="feature"><h3>🏋‍♂ لياقة وتغذية</h3><p>اهتمام كامل بالجانب البدني والصحي</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>📸 من أجواء نِكِست
+</h2>
+    <div class="gallery">
+      <img src="file:///C:/Users/mahmo/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/%D8%B5%D9%88%D8%B1%D8%A9%20%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8%20%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%202025-10-27%20%D9%81%D9%8A%2023.06.18_d81184c1.jpg" alt="training">
+      <img src="file:///C:/Users/mahmo/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/%D8%B5%D9%88%D8%B1%D8%A9%20%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8%20%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%202025-10-27%20%D9%81%D9%8A%2023.08.35_656effb9.jpg" alt="match">
+      <img src="file:///C:/Users/mahmo/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/%D8%B5%D9%88%D8%B1%D8%A9%20%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8%20%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%202025-10-27%20%D9%81%D9%8A%2023.20.18_b0e27648.jpg" alt="academy">
+    </div>
+  </section>
+
+  <section>
+    <h2>📍 تواصل معنا</h2>
+    <div class="contact">
+      <p><strong>العنوان:</strong> مركز شباب زينهم</p>
+      <p><strong>واتساب:</strong> <a href="https://wa.me/201208464748" target="_blank" style="color:#ffcc00;text-decoration:none;">01208464748</a></p>
+      <iframe src="https://www.google.com/maps?q=مركز+شباب+زينهم&output=embed"></iframe>
+      <br><br>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 أكاديمية نكست - Next Football Club | جميع الحقوق محفوظة
+  </footer>
+</body>
+</html>
+
